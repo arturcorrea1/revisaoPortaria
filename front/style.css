@@ -164,9 +164,19 @@ select{
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   .container{
-      width: 80%;
+      width: 60%;
+  }
+}
+
+@media (max-width: 600px){
+  input{
+    width: 50%;
+    transition: 0.3s
+  } select{
+    width: 50%;
+    transition: 0.3s
   }
 }
 
